@@ -1,4 +1,15 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 150%;
+  background-color: bisque;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+nav a{
+  text-decoration: none;
 }
