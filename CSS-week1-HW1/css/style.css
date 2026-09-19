@@ -4,6 +4,15 @@ body{
   background-color: bisque;
 }
 
+header{
+background-color: darksalmon;
+}
+
+li{
+  display: inline-block;
+  width: 300px;
+}
+
 nav ul{
   display: flex;
   list-style: none;
@@ -12,4 +21,49 @@ nav ul{
 
 nav a{
   text-decoration: none;
+  color: chocolate;
+}
+
+nav{
+  padding: 35px;
+  background-color: rgb(40, 56, 56);
+}
+
+h1{
+  text-align: center;
+  font-size: 90px;
+  color:dimgrey;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+  background-color: rgb(241, 191, 185);
+  font-size: 35px;
+  color: white;
+}
+
+main div{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+main div img{
+  width: 350px;
+  height: 350px;
+  border: 8px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer{
+  background-color: gray;
+  padding: 45px;
+  text-align: center;
+  color: white;
+}
+
+p{
+  line-height: 1.5;
 }
