@@ -39,7 +39,7 @@ h1{
 main{
   background-color: rgb(241, 191, 185);
   font-size: 35px;
-  color: white;
+  color: #333;
 }
 
 main div{
@@ -58,7 +58,7 @@ main div img{
 }
 
 footer{
-  background-color: gray;
+  background-color: #444;
   padding: 45px;
   text-align: center;
   color: white;
