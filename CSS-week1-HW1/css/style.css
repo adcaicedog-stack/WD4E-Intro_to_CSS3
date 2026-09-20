@@ -4,14 +4,25 @@ body{
   background-color: bisque;
 }
 
+body>a{
+  display: inline-block;
+  background-color: aqua;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
 header{
 background-color: darksalmon;
 }
 
+/*Este es el apartado de navegación: Home - Neighborhood Walks - Walks in the Park*/
+/*
 li{
   display: inline-block;
   width: 300px;
 }
+*/
 
 nav ul{
   display: flex;
@@ -25,8 +36,14 @@ nav a{
 }
 
 nav{
+  display: inline-block;
+  width: 80%;
   padding: 35px;
   background-color: rgb(40, 56, 56);
+}
+
+nav img{
+  width: 10%;
 }
 
 h1{
@@ -66,4 +83,19 @@ footer{
 
 p{
   line-height: 1.5;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
