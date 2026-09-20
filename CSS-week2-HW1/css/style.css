@@ -60,14 +60,14 @@ nav img{
 h1{
   text-align: center;
   font-size: 90px;
-  color:dimgrey;
+  color:rgb(32, 32, 32);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main{
   background-color: rgb(241, 191, 185);
   font-size: 35px;
-  color: #333;
+  color: #2b2727;
 }
 
 main div{
@@ -96,6 +96,15 @@ footer{
   color: white;
 }
 
+footer a{
+  color: red;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: yellow;
+  text-decoration: none;
+}
 p{
   line-height: 1.5;
 }
