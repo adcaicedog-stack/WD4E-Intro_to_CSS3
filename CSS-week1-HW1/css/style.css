@@ -68,7 +68,7 @@ main div{
 
 main div img{
   width: 350px;
-  height: 350px;
+  height: auto;
   border: 8px solid white;
   border-radius: 50%;
   object-fit: cover;
